@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Roboto, Arial, Helvetica, "sans-serif";  */
+}
+
+:root {
+    /* --color-back-1: bisque;
+    --color-emphasis: rgb(117, 76, 26);
+    --width-content: 1200px; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-image: url(../img/background.png);
+    background-size: cover; */
+}
+
+.width-content {
+    /* max-width : var(--width-content);
+    margin: 0 auto; */
+}
