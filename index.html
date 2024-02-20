@@ -24,17 +24,134 @@
   </head>
 
   <body>
-
-    <header>
-
-        
-            <div>
-              <img src="img/index_1400px.avif" alt="background de caffee" />
-            </div>
-        
-      
-            <h1>Cafés del mon</h1>
-          
+    <header class="width-content">
+      <div>
+        <source srcset="img/index_2000.avif" media="(min-width: 1600px)" />
+        <source srcset="img/index_1440.avif" media="(min-width: 1200px)" />
+        <source srcset="img/index_800.avif" media="(min-width: 800px)" />
+        <source srcset="img/index_500.avif" media="(min-width: 400px)" />
+        <img
+          class="width-content"
+          src="img/index_2000px.avif"
+          alt="Cabecera de la página"
+        />
+      </div>
+      <h1>Cafés del Món</h1>
     </header>
+
+    <nav class="width-content">
+      <ul class="nav-ul width-content">
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="varietats.html">Varietats</a></li>
+        <li><a href="botiga.html">Botiga</a></li>
+        <li><a href="nosaltres.html">Sobre nosaltres</a></li>
+      </ul>
+    </nav>
+
+    <main width-content>
+      <!-- section 1 -->
+
+      <section id="section-white" class="width-content">
+        <article>
+          <img
+            src="img/taza_cafe_negro_desde_arriba_600x800.avif"
+            alt="taza caffe"
+          />
+          <div>
+            <h3>Un cafè deliciós per a totes les ocasions</h3>
+            <br />
+            <p>
+              Quan arribes a Abu Simbel i et quedes dret mirant els colossos de
+              roca de la façana principal ets fas petit, petit. L'experiència
+              s'ha de viure. La mirada se'n va més enllà de 3.200 anys enrere.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- section 2 -->
+
+      <section id="section-green" class="width-content">
+        <article>
+          <div>
+            <h3>Café natural i sostenible</h3>
+            <br />
+            <p>
+              Quan arribes a Abu Simbel i et quedes dret mirant els colossos de
+              roca de la façana principal ets fas petit, petit. L'experiència
+              s'ha de viure. La mirada se'n va més enllà de 3.200 anys enrere.
+            </p>
+          </div>
+          <img src="img/natural_600x750.avif" alt="taza caffe" />
+        </article>
+      </section>
+
+      <!-- section 3 -->
+
+      <section id="section-white" class="width-content">
+        <article>
+          <video autoplay>
+            <source src="assets/Basic_heart_latte_art.mp4" type="video/mp4" />
+          </video>
+
+          <div>
+            <h3>Prepara un deliciós cafè a casa</h3>
+            <br />
+            <p>
+              Quan arribes a Abu Simbel i et quedes dret mirant els colossos de
+              roca de la façana principal ets fas petit, petit. L'experiència
+              s'ha de viure. La mirada se'n va més enllà de 3.200 anys enrere.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- section 4 -->
+
+      <section id="section-green" class="width-content">
+        <article>
+          <div>
+            <h3>El cafè mai pot faltar en una bona trobada</h3>
+            <br />
+            <p>
+              Quan arribes a Abu Simbel i et quedes dret mirant els colossos de
+              roca de la façana principal ets fas petit, petit. L'experiència
+              s'ha de viure. La mirada se'n va més enllà de 3.200 anys enrere.
+            </p>
+          </div>
+          <img src="img/grupo-amigos-bebiendo-cafe.avif" alt="taza caffe" />
+        </article>
+      </section>
+
+      <!--section opiniones-->
+      <section id="opiniones" class="width-content">
+        <article>
+          <h3>Els clients opinen</h3>
+          <div>
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+              minima accusantium ducimus officia doloremque aut, esse impedit
+              iure qui incidunt facilis eaque veritatis dolore quos consectetur
+              voluptatibus repudiandae dignissimos vel.
+            </blockquote>
+            <cite>Juli Cesar</cite>
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              temporibus porro libero suscipit culpa, molestiae rerum dolor
+              facere quaerat quam aliquid aliquam explicabo velit necessitatibus
+              consequuntur cupiditate expedita incidunt tempora.
+            </blockquote>
+            <cite>Livia</cite>
+            <blockquote>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+              illo fugiat tenetur maxime eum illum quia alias quasi, architecto
+              iusto quo perferendis, laboriosam aspernatur officiis excepturi
+              nulla nemo commodi. Error!
+            </blockquote>
+            <cite>Octavi August</cite>
+          </div>
+        </article>
+      </section>
+    </main>
   </body>
 </html>

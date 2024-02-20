@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: Roboto, Arial, Helvetica, "sans-serif";  */
+    font-family: 'Lato', sans-serif;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Color verde para el menú y footer */
+
 :root {
-    /* --color-back-1: bisque;
+    --color-verde: #053617;
     --color-emphasis: rgb(117, 76, 26);
-    --width-content: 1200px; */
+    --width-content: 1200px; 
 }
 
 html {
@@ -16,11 +24,98 @@ html {
 }
 
 body {
-    /* background-image: url(../img/background.png);
-    background-size: cover; */
+    /* background-image: url(../img/background.png); */
+    background-size: cover; 
 }
 
 .width-content {
-    /* max-width : var(--width-content);
-    margin: 0 auto; */
+    margin: 0 auto; 
+    max-width : var(--width-content);
+
 }
+
+/* HEADER */
+
+header > h1 {
+    width : 20vw;
+}
+
+/* NAV */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: var(--color-verde);
+    z-index: 2;
+    margin-top: -5px;
+
+    
+
+
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.nav-ul > li {
+    list-style: none;
+    padding: 20px;
+    color:white;
+}
+
+.nav-ul > li:hover {
+    color: white;
+    background-color: var(--color-emphasis);
+    border-radius: 10px;
+} 
+.nav-ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5rem;
+}
+
+
+ /*  main  content container */
+
+ /* section white */
+
+article {
+    display: flex;
+    justify-content: center;
+    margin: 0 25%
+
+}
+
+article p {
+    font-size: 20px;
+   
+}
+
+article  div  {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10%;    
+}
+
+article   img, video  {
+    width: 50%;   
+}
+
+/* section green */
+
+
+#section-green {
+    background-color: var(--color-verde);
+}
+
+
+
+
+
+
+
+
